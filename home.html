@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body{
+            /* background-size: cover;
+            background-image: url(/image/pexels-rahul-shah-2268487.jpg); */
+            /* overflow: hidden; */
+           position: fixed;
+        }
+        .bgimage{
+           width: 1520px;
+            background-size: cover;
+            position: absolute;
+            
+            filter:brightness(30%);
+        }
+
+        nav{
+            background-color: rgb(0, 0, 0);
+            width: 1520px;
+            padding-top: 1px;
+            height: 50px;
+        }
+        .mrs-culture{
+            width: 100px;
+            height: 50px;
+            margin-top: -13px;
+            
+            margin-right: 850px;
+        }
+        li{
+    list-style: none;
+    margin-left: 10px;
+}
+        a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    
+}
+        .top{
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    
+    
+}
+        .tp{
+    background-color: aqua;
+    height: 0px;
+}
+        .tp:hover{
+    transform: scale(1.1);
+    text-decoration: underline yellow;
+    text-shadow: 1px 1px 5px paleturquoise, 1px 1px 10px red;
+    color: #ffff9a;
+    transition: 1s;
+    
+
+}  
+.part{
+    display: flex;
+    width: 1500px;
+    position: relative;
+} 
+.part1, .part2{
+    margin-top: 200px;
+    margin-right: 20px;
+    
+}
+.part2{
+    margin-top: 220px;
+}
+.part1{
+    margin-left: -600px;
+}
+.part-image{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    border-radius: 10px 50px 10px 50px;
+    
+}
+.part-image:hover{
+    transform: scale(1.1);
+    /* position: relative; */
+    box-shadow: 0px 0px 50px rgba(255, 0, 0, 0.426), 0px 0px 50px rgba(255, 255, 0, 0.366), 0px 0px 28px rgba(135, 207, 235, 0.459);
+    margin-top: 10px;
+}
+#h3{
+    text-indent: 15px;
+}
+h3{
+    position: relative;
+    width: 300px;
+    margin-top: 30px;
+    text-indent: 30px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+h4{
+    color: white;
+    margin-left: -800px;
+}
+h1{
+    color: transparent;
+    width: 1500px;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100px;
+    margin-top: 350px;
+    text-indent: 50px;
+    background: url(image/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+p{
+    position: relative;
+    color: white;
+    font-size: 16px;
+    margin-left: 58px;
+    margin-top: -60px;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+.logo{
+    position: relative;
+    margin-top: 70px;
+    
+    display: flex;
+}
+.logo p{
+    text-decoration: overline rgb(217, 255, 0);
+    text-transform: uppercase;
+    color: lightgreen;
+    letter-spacing: 5px;
+}
+#facebook{
+    margin-left: -150px;
+    border-radius: 25px;
+    margin-top: -30px;
+    position: fixed;
+    
+}
+#facebook:hover{
+    box-shadow: 5px 20px 50px rgb(0, 0, 255), 0px 0px 50px white;
+    border: 1px;
+    border-color: rgb(0, 0, 255);
+    border: solid;
+}
+
+#instagram{
+    margin-left: -70px;
+    margin-right: 30px;
+    position: fixed;
+    border-radius: 25px;
+    margin-top: -30px;
+}
+#instagram:hover{
+    box-shadow: 5px 20px 50px rgb(255, 136, 0), 0px 0px 50px white;
+    border-radius: 25px;
+    border: 1px;
+    border-color: rgb(0, 0, 255);
+    border: solid;
+}
+#youtube{
+    border-radius: 25px;
+    position: fixed;
+    margin-top: -30px;
+}
+#youtube:hover{
+    box-shadow: 5px 20px 50px rgb(255, 0, 0), 0px 0px 50px white;
+    border-radius: 25px;
+    border: 1px red;
+   
+    border: solid;
+}
+.logo-ss{
+    position: relative;
+    width: 40px ;
+    height: 40px;
+}
+.logo-ss:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+.about-us{
+    margin-top: -10px;
+    margin-left: 300px;
+    position: fixed;
+    
+}
+.about-us:hover{
+    text-decoration: underline red;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <ol class="top">
+                <li><img class="mrs-culture" src="Logo/Mrs culture.png" alt=""></li>
+                   
+                    <a class="tp" id="left1" href="#"><li>Home</li></a>
+                    <a class="tp" href="State Culture.html"><li>State Culture</li></a>
+                    <a class="tp" href="login.html"><li>Login</li></a>
+                    <a class="tp" href="sign up.html"><li>Sign up</li></a>
+                    <a class="tp" id="left" href="contact.html"><li>contact</li></a>
+                   
+            </ol>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <img class="bgimage" src="image/black and white 3.jpg" alt="">
+            <div class="part">
+                <h1>Mrs Culture</h1>
+                
+                <div class="part1">
+                    <a href="cultureimages.html" target="_blank" rel="noopener noreferrer"><img class="part-image" src="image/gallery.jpg" alt=""></a>
+                    <h3>Culturel Images</h3>
+                </div>
+
+                <div class="part2">
+                    <a href="culturedressimage.html" target="_blank" rel="noopener noreferrer"><img class="part-image" src="image/dress.jpg" alt=""></a>
+                    <h3 id="h3">Culturel Dresses Images</h3>
+                </div>
+        </div>
+        
+        <p>We may have different religions, different languages, different colored skin,<br> we all belong to one human race.</p>
+        </div>
+        <div class="logo">
+            <p>follow us:</p>
+            <div><a href="https://www.facebook.com/profile.php?id=100080225361835" target="_blank" rel="noopener noreferrer"><img id="facebook" class="logo-ss" src="logo/facebook (1).png" alt=""></a></div>
+            <div><a href="https://www.instagram.com/mr.pglu.gmr/" target="_blank" rel="noopener noreferrer"><img id="instagram" class="logo-ss" src="logo/instagram (1).png" alt=""></a></div>
+            <div><a href="https://www.youtube.com/@mrpglugmr" target="_blank" rel="noopener noreferrer"><img id="youtube" class="logo-ss" src="logo/youtube (1).png" alt=""></a></div>
+            <div class="about-us"><a href="about.html" target="_blank" rel="noopener noreferrer">ABOUT US</a></div>
+        </div>
+    </main>
+</body>
+</html>

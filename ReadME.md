@@ -1,5 +1,5 @@
 # Mrs-Culture
-Indian Culture
+# Indian Culture
 Welcome to our website dedicated to the rich and diverse culture of India!
 India is a land of rich and diverse culture. With a history spanning thousands of years, the culture of India has been shaped by a variety of influences, including religion, tradition, and geography.
 One of the most striking features of Indian culture is its religious diversity. Hinduism, Buddhism, Jainism, and Sikhism all originated in India, and the country is also home to a significant Muslim population. This diversity is reflected in the many religious festivals and ceremonies that are celebrated throughout the year, including Diwali, Holi, and Eid.
